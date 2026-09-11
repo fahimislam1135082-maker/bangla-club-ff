@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🔍 GOOGLE SEARCH SEO TAGS -->
     <title>Bangla Club FF - Official Android App Download</title>
-    <meta name="description" content="Download the official Bangla Club FF Android APK. Your ultimate Free Fire tournament experience.">
+    <meta name="title" content="Bangla Club FF - Official Android App Download">
+    <meta name="description" content="Download the official Bangla Club FF Android APK. Join Free Fire daily tournaments, custom matches, track results and win verified rewards.">
+    <meta name="keywords" content="Bangla Club FF, Bangla Club, FF Tournament App, Free Fire Tournament Bangladesh, Bangla Club FF APK Download, FF Custom Room App, Bangla Club Free Fire">
+    <meta name="author" content="Bangla Club FF">
+    <meta name="robots" content="index, follow">
+
+    <!-- 🌐 GOOGLE SEARCH CONSOLE VERIFICATION (গুগল সার্চ কনসোল থেকে কোড পেলে content="" এর ভেতর বসাবেন) -->
+    <meta name="google-site-verification" content="CohPrJFv-lzelithOIqe6vAf_9GmPLJJ8qFBZ0cilsE" />
+
+    <!-- 📱 SOCIAL MEDIA SHARE PREVIEW (Facebook, WhatsApp, Telegram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bangla Club FF - Official Android App Download">
+    <meta property="og:description" content="Download the official Bangla Club FF Android APK. Join daily Free Fire tournaments!">
+    <meta property="og:image" content="./logo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bangla Club FF - Official Android App">
+    <meta name="twitter:description" content="Your ultimate Free Fire tournament experience. Download APK now!">
+    <meta name="twitter:image" content="./logo.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Teko:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -93,7 +115,7 @@
         <div class="container header-wrap">
             <a href="#" class="brand">
                 <div class="brand-logo-wrap">
-                    <img src="./logo.png" alt="Logo">
+                    <img src="./logo.png" alt="Bangla Club FF Logo">
                 </div>
                 <div class="brand-info">
                     <h1>Bangla Club FF</h1>
@@ -139,10 +161,10 @@
                 <h2 class="section-title">Screenshots</h2>
             </div>
             <div class="screenshots-track">
-                <div class="screenshot-item"><img src="./screenshot-1.png" alt="Screen 1"><div class="screenshot-caption">Home</div></div>
-                <div class="screenshot-item"><img src="./screenshot-2.png" alt="Screen 2"><div class="screenshot-caption">Matches</div></div>
-                <div class="screenshot-item"><img src="./screenshot-3.png" alt="Screen 3"><div class="screenshot-caption">Tournaments</div></div>
-                <div class="screenshot-item"><img src="./screenshot-4.png" alt="Screen 4"><div class="screenshot-caption">Profile</div></div>
+                <div class="screenshot-item"><img src="./screenshot-1.png" alt="Home Screen"><div class="screenshot-caption">Home</div></div>
+                <div class="screenshot-item"><img src="./screenshot-2.png" alt="Match Screen"><div class="screenshot-caption">Matches</div></div>
+                <div class="screenshot-item"><img src="./screenshot-3.png" alt="Tournament Screen"><div class="screenshot-caption">Tournaments</div></div>
+                <div class="screenshot-item"><img src="./screenshot-4.png" alt="Profile Screen"><div class="screenshot-caption">Profile</div></div>
             </div>
         </section>
 
@@ -184,8 +206,9 @@
                 <h2 class="section-title">Need Help?</h2>
                 <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 6px;">Contact our official team directly if you face any problem.</p>
                 <div class="support-links">
-                    <a href="#" id="tgLink" class="btn-support" target="_blank">Telegram</a>
-                    <a href="#" id="waLink" class="btn-support" target="_blank">WhatsApp</a>
+                    <a href="#" id="tgLink" class="btn-support" target="_blank" rel="noopener noreferrer">Telegram</a>
+                    <a href="#" id="fbLink" class="btn-support" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="#" id="waLink" class="btn-support" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                 </div>
             </div>
         </section>
@@ -219,19 +242,21 @@
 
     <script>
         const APP_CONFIG = {
-    apkUrl: "./bangla-club-ff.apk",   // আপনার ওয়েবসাইটের ভেতরের আসল ফাইল
-    version: "1.0.0",
-    fileSize: "6.25 MB",              // আপনার APK-র সাইজ লিখে দিন
-    updateDate: "March 2026",
-    telegramUrl: "https://t.me/fahim_rx7",
-    whatsappUrl: "https://wa.me/8801857329552",
-};
+            apkUrl: "./bangla-club-ff.apk",
+            version: "1.0.0",
+            fileSize: "5.54 MB",
+            updateDate: "March 2026",
+            telegramUrl: "https://t.me/#",
+            facebookUrl: "https://facebook.com/#",
+            whatsappUrl: "https://wa.me/#"
+        };
 
         document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("specVersion").textContent = APP_CONFIG.version;
             document.getElementById("specSize").textContent = APP_CONFIG.fileSize;
             document.getElementById("specUpdate").textContent = APP_CONFIG.updateDate;
             document.getElementById("tgLink").href = APP_CONFIG.telegramUrl;
+            document.getElementById("fbLink").href = APP_CONFIG.facebookUrl;
             document.getElementById("waLink").href = APP_CONFIG.whatsappUrl;
         });
 
@@ -254,4 +279,4 @@
         }
     </script>
 </body>
-    </html>
+</html>
