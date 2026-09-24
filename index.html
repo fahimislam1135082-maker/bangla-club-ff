@@ -257,8 +257,8 @@
 
         .featured-banner {
             position: relative;
-            height: 190px;
-            background: linear-gradient(135deg, #09132c, #030818);
+            height: 220px;
+            background: #07090e;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -269,14 +269,15 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: 0.55;
-            mix-blend-mode: luminosity;
+            object-position: center;
+            opacity: 1;
+            filter: brightness(1.05) contrast(1.05);
         }
 
         .featured-banner-overlay {
             position: absolute;
             inset: 0;
-            background: linear-gradient(0deg, var(--bg-card) 5%, rgba(7, 9, 14, 0.4) 60%, transparent 100%);
+            background: linear-gradient(0deg, var(--bg-card) 0%, rgba(7, 9, 14, 0.15) 50%, transparent 100%);
         }
 
         .featured-badge-top {
