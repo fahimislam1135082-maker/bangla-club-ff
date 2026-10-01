@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+
+  <url>
+    <loc>https://banglaclubff.vercel.app/</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- গুগল ইমেজ ও সার্চ বুস্টার -->
+    <image:image>
+      <image:loc>https://i.ibb.co/nNf5mzf7/1000251092-removebg-preview-2.png</image:loc>
+      <image:title>Bangla Club FF - Best Free Fire Community Bangladesh</image:title>
+      <image:caption>Official Bangla Club Free Fire Gaming Community by Fahim</image:caption>
+    </image:image>
+
+    <!-- মোবাইল সার্চ ফার্স্ট ইনডেক্সিং -->
+    <mobile:mobile/>
+  </url>
+
+</urlset>
